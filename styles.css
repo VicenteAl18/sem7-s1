@@ -1,0 +1,46 @@
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(203, 203, 203);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+.navigation{
+    padding: 10px;
+}
+.navigation-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation-item{
+    list-style: none ;
+    display: inline;
+}
+.navigation-link {
+    width: 150px;
+    height: 100px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.text {
+    text-align: center;
+    padding: 0px 300px;
+}
